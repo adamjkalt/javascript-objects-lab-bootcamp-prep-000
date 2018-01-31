@@ -14,11 +14,11 @@ return object;
 
 function deleteFromObjectByKey (object, key){
  
-var newObject = Object.assign({}, object);
+var newObj = Object.assign({}, object);
 
-delete newObject.key;
+delete newObj.key;
 
-return newObject;
+return newObj;
 }
 
 
