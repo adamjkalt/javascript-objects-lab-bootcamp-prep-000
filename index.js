@@ -23,7 +23,7 @@ return newObj;
 
 function destructivelyDeleteFromObjectByKey (object, key){
 
-delete newObj[key];
+delete object
 
 return newObj;
 }
