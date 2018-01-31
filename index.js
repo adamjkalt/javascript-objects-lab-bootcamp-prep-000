@@ -23,9 +23,9 @@ return newObj;
 
 function destructivelyDeleteFromObjectByKey (object, key){
 
-delete object
+delete object[key];
 
-return newObj;
+return object;
 }
 
  
